@@ -16,9 +16,9 @@
         <img src="../imagenes/cooltext2.png" alt="">
       </div>
 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"></a>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="">
+          <a class="navbar-brand" href=></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -45,7 +45,7 @@
        
 
     </header>
-            <form>
+            <form class="datos">
                <label for="nombre_apellido"> Ingrese Nombre y Apellido </label> 
                    <input type="text" name="nombre_apellido" />
                <br>
@@ -63,7 +63,11 @@
 
 
                   <div class="imagenAuto">
-                      <img class ="img-fluid" src="../imagenes/2018_10_17_talleres-1800x728.jpg" alt="">
+                    <source media="(min-width:500px)" srcset="imagen/auto levantado 500px. gif">
+                    <source media="(min-width:720px)" srcset="imagen/auto levantado 720px. gif">
+                    <source media="(min-width:1024px)" srcset="imagen/auto levantado 1024px. gif">
+                    
+                      <img class ="" src="../imagenes/auto levantado.jpg" alt="">
                  </div>
 
 
@@ -73,11 +77,12 @@
 
    <footer>
 
-
    </footer>
    <script>
     AOS.init();
   </script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    
+   </script>
 </html>
 
