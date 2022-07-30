@@ -12,7 +12,12 @@
 body{
     justify-content: center;
     font-family: 'Anek Latin', sans-serif;
+    margin: 10px;
 
+
+   }
+   .container{
+    margin: 10px;
    }
 nav ul, .descuento, article{
     border: 2px double rgb(10, 10, 10) ;
@@ -74,6 +79,7 @@ a{
 
 
 /*celular*/
+
 @media(min-width:480px){
     .container{
     display: grid;
@@ -90,8 +96,8 @@ a{
     grid-template-columns: 1fr;
     }  
  
-  .titulo{
-    color: rgb(5, 5, 5);
+  .header{
+
     font-size: 50px;
     text-align: center;
     margin: 20px 30px 30px 20px; 
@@ -99,7 +105,7 @@ a{
     font-weight: bolder;
 }
 
- nav{
+     nav{
  
     margin-left: 80px;
 
@@ -149,7 +155,8 @@ a{
 
     video{
         justify-content: center;
-        margin: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
  }
 
 
@@ -159,6 +166,9 @@ a{
     font-style: oblique;
     background-color: yellow;
     padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px
+    ;
 
  }
 }
