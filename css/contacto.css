@@ -8,9 +8,9 @@
 
 
 body{
-    background-color: rgb(163, 193, 185);
-    margin: auto;
-    justify-content: center;
+    margin: 10px;
+    background-color: darkcyan;
+
  
     
 }
@@ -105,7 +105,7 @@ footer{
     .container{
     display: grid;
     grid-template-areas:
-    "tituloPrincipal"
+    "titulo"
     "nav"
     "imagenAuto"
     "datos"
@@ -113,9 +113,11 @@ footer{
     grid-template-rows: 2fr;
     }
     .imagenAuto{
-        position: relative;
-        margin-right: 30px;
-        grid-template-rows: 50%;
+       width: 20px;
+       height: 20px;
+       position: relative;
+       right: 20px;
+       
     }
     
 
@@ -142,6 +144,42 @@ footer{
 
     @media (min-width:720px) {
     
-
+            .container{
+            display: grid;
+            grid-template-areas:
+            "titulo"
+            "navbar"
+            "imagenAuto"
+            "datos"
+            "navbar-toggler";
+            grid-template-rows: 2fr;
+            }
+            .imagenAuto{
+                position: relative;
+                left: 400px;
+                bottom: 100px;
+            }
+            
+        
+           .navbar-toggler{
+            
+            background: rgb(242, 243, 245);
+           }
+        
+           .tituloPrincipal{
+            background-color: black;
+            padding: 40px;
+            color: rgb(255, 0, 0);
+           }
+        
+           .datos{
+            color: black;
+            font-weight: bolder;
+            font-size: 30px;
+           }
+        .navbar{
+          text-align: center;
+        }
+           
 
 }
